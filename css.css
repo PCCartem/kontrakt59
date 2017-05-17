@@ -1,0 +1,1189 @@
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+*
+{
+    text-shadow:none;
+    box-shadow:0;
+}
+.preim:hover
+{
+    aursop:pointer;
+}
+.contacts a
+{
+    color:white;
+}
+.wrap
+{
+	margin: 0 auto;
+}
+.contacts
+{
+height: 55px;
+background-color: #0e0c60;
+display: flex;
+justify-content: space-around;
+}
+.call li
+{
+display: inline;
+color: rgba(255, 255, 255, 0.9);
+font-family: "Suisse Intl";
+font-size: 18px;
+line-height: 1;
+margin-left: 10px;
+}
+.call
+{
+margin-top: 16px;
+
+margin-right:200px;
+}
+.social
+{
+margin-top: 14px;
+text-align: center;
+display:inline;
+}
+.social img
+{
+	margin-left: 0px;
+}
+.social a:hover
+{
+	
+}
+.call_phone
+{
+	font-size: 20px;
+}
+.call_mail
+{
+	font-size: 20px;
+}
+.vk 
+{
+	width: 30px;
+	margin-right:110px;
+
+}
+.full_contacts
+{
+
+width: 100%;
+top:0;
+position: fixed;
+z-index: 9999;
+margin: 0 auto;
+-moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+.for_vk
+{
+
+margin-top:-10px;
+}
+.navbar
+{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+}
+
+.active
+{
+}
+.active1
+{
+border-bottom: 5px solid #0e0c60;
+background-color: #e7e7e7;
+}
+
+.navbar li:hover
+{
+border-bottom: 5px solid #0e0c60;	
+}
+.navbar li
+{
+height: 70px;
+color: #565656;
+font-family: "Arial Narrow";
+font-size: 16px;
+font-weight: 100;
+}
+.navbar li:hover
+{
+background-color:#e7e7e7;
+}
+.button-to-down
+{
+	align-self:flex-end;
+	position: absolute;
+	margin-top: -50px;
+}
+.map
+{
+	margin-top: 50px;
+}
+.button-to-down:hover
+{
+	cursor:pointer;
+}
+main
+{
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	height: 768px;
+	margin-top:100px;
+	display: flex;
+	justify-content: space-around;
+}
+main h1
+{
+text-shadow: 5px 4px 3px rgba(0, 0, 0, 0.4);
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1;
+padding-top: 83px;
+}
+.items
+{
+    height:500px;
+}
+main p
+{
+text-shadow: 5px 4px 3px rgba(0, 0, 0, 0.4);
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 30px;
+font-weight: 400;
+}
+.forma1, .forma2
+{
+margin-top:100px;
+max-height: 390px;
+box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+background-color: #ffffff;
+background-image: linear-gradient(to top, rgba(0, 0, 1, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+opacity:1;
+display: flex;
+justify-content: space-around;
+border-radius:20px;
+}
+.forma1 input,.forma2 input
+{
+/* Style for "Прямоуголь" */
+width: 305px;
+height: 43px;
+border-radius: 10px;
+border: 2px solid #0e0c60;
+background-color: rgba(182, 40, 187, 0);
+
+}
+.forma1 button,.forma2 button
+{
+width: 305px;
+height: 43px;
+border-radius: 10px;
+}
+.forma1 form,.forma2 form
+{
+margin-top: 30px;
+}
+.forma2
+{
+position: absolute;
+position: fixed;
+z-index: 9999;
+top:130px;
+opacity:1;
+}
+.for_forma2
+{
+	display: flex;
+	justify-content: center;
+}
+.close {
+position: absolute;
+padding: 0;
+right: 0px;
+width: 22px;
+height: 22px;
+border: 2px solid #ccc;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+background-color: red;
+-webkit-box-shadow: 0px 0px 10px #000;
+-moz-box-shadow: 0px 0px 10px #000;
+box-shadow: 0px 0px 10px #000;
+text-align: center;
+display: flex;
+justify-content: center;
+text-decoration: none;
+font-weight: bold;
+line-height: 20px;
+-webkit-transition: background-color ease .7s;
+-moz-transition:  background-color ease .7s;
+-ms-transition:  background-color ease .7s;
+-o-transition:  background-color ease .7s;
+transition: background-color ease .7s;
+transition: 1.5s;
+opacity: 1;
+}
+.close:before 
+{
+color: rgba(255, 255, 255, 0.9);
+content: '\2715';/*крестик */
+text-shadow: 0 -1px rgba(0, 0, 0, 1);
+font-size: 12px;
+}
+.close:hover 
+{
+background-color: rgba(252, 20, 0, 0.8);
+transform:rotate(360deg);
+}
+.btn-danger
+{
+	background-color: #b90304;
+}
+.btn-primary
+{
+	background-color: #000062;
+}
+#Vkontakte
+{
+    fill: white;
+}
+#Vkontakte:hover
+{
+    fill: orange;
+    cursor:pointer;
+}
+.send_big_thing
+{
+	background-image: url(img/background2.jpg);
+	background-position:75% 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 449px;
+display: flex;
+justify-content: center;
+align-items: center;
+    text-align: center;
+}
+.send_big_thing h1
+{
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 40px;
+font-weight: 700;
+}
+.send_big_thing button
+{
+margin-top:30px;
+width: 187px;
+height: 43px;
+border-radius: 10px;
+background-color: #9d1414;
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 16px;
+font-weight: 400;
+transition: 1s;
+}
+.send_big_thing button:hover
+{
+background-color: #e60000;	
+}
+.us_contacts
+{
+height: 650px;
+background-color: #f0f0f0;
+text-align: center;
+}
+.us_contacts input,.us_contacts textarea
+{
+	margin-top: 10px;
+}
+.us_contacts h1
+{
+	padding-top: 50px;
+}
+.flex_us_contacts
+{
+
+	display: flex;
+	justify-content: space-around;
+}
+.flex_us_contacts button
+{
+width: 150px;
+height: 43px;
+border-radius: 10px;
+background-color: #9d1414;
+}
+
+.for_button_and_p
+{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 15px;
+}
+.for_button_and_p p
+{
+font-size: 14px;
+width: 480px;
+height: 30px;
+}
+.for_button_and_p a
+{
+color: #0e0c60;
+font-weight: 600;
+}
+.data
+{
+	display: flex;
+    margin-top: 60px;
+}
+.data input
+{
+height: 44px;
+width: 564px;
+}
+.data textarea
+{
+width: 564px;
+}
+.information
+{
+	  width: 290px;
+}
+.information span
+{
+color: #313131;
+font-family: "Suisse Intl";
+font-size: 26px;
+}
+.information p
+{
+color: #696969;
+font-family: "Suisse Intl";
+font-size: 18px;
+}
+.information a
+{
+color: #0e0c60;
+font-weight: 800;
+}
+.auto
+{
+	text-align: center;
+}
+.dot
+{
+width: 27px;
+height: 7px;
+}
+.blue
+{
+text-align: center;
+color: #0e0c60;
+font-family: "Arial Narrow";
+font-size: 30px;
+font-weight: 700;
+}
+.auto p
+{
+color: #515157;
+font-family: "Arial Narrow";
+font-size:25px;
+font-style: italic;
+}
+.marka
+{
+	display:flex;
+	justify-content: center;
+	-webkit-align-content: stretch;
+    margin:20px;
+}
+.car img
+{
+	margin-top: 50px;
+}
+.car
+{
+margin:0 20px;
+cursor: pointer;
+width: 187px;
+height: 187px;
+border-radius: 10px;
+border: 4px solid #0e0c60;
+background-color: rgba(182, 40, 187, 0);
+}
+.work_with_clients
+{
+margin-top: 80px;
+background-color: #f0f0f0;
+text-align: center;
+}
+.work_with_clients1
+{
+	display: flex;
+     flex-direction: row;
+     justify-content:center;
+     margin-top: 45px;
+}
+.work_with_clients2
+{
+	display: flex;
+
+}
+.work_with_clients1 p
+{
+width: 230px;
+height: 46px;
+color: #313131;
+font-family: "Arial Narrow";
+font-size: 20px;
+font-weight: 700;
+margin-top: 15px;
+line-height: 1;
+}
+.work_with_clients1 button
+{
+width: 187px;
+height: 43px;
+border-radius: 10px;
+background-color: #9d1414;
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 16px;
+font-weight: 400;
+transition: 1s;
+margin-top: 1;
+}
+.work_with_clients1 button:hover
+{
+background-color: #e60000;
+}
+.work_with_clients1 li
+{
+list-style-type: none;
+}
+.work_with_clients h1
+{
+	padding-top:50px;
+	text-align: center;
+}
+.work_with_clients1_block1
+{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 187px;
+height: 43px;
+border-radius: 10px;
+border: 4px solid #0e0c60;
+background-color: rgba(182, 40, 187, 0);
+margin-left:21px;
+}
+.about_us
+{
+	text-align: center;
+		background-color: white;
+		height:500px;
+}
+
+.about_us
+{
+	font-size: 16px;
+	color: gray;
+}
+.work_with_us
+{
+	background-color: white;
+	text-align: center;
+}
+#carousel-example-generic
+{
+    margin-top:0px;
+}
+#image
+{
+	width: 75px;
+    height: 75px;
+}
+.services
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	align-self:center;
+}
+.services div
+{
+    margin:20px 25px;
+}
+
+.good_service span
+{
+color: #313131;
+font-family: "Suisse Intl";
+font-size: 18px;
+font-weight: 700;
+}
+.good_service p
+{
+padding-top:3px;
+color: #696969;
+font-family: "Suisse Intl";
+font-size: 15px;
+max-width:250px;
+}
+.good_service button
+{
+box-shadow:none;
+border-radius: 30px;
+background-color: orange;
+height:42px;
+width:150px;
+color: #ffffff;
+font-family: "Suisse Intl";
+font-size: 17px;
+margin-top: 10px;
+}
+.good_service button:hover
+{
+background-color: #ffa450;
+}
+.logo
+{
+	width:140px;
+	height: 65px;
+}
+.good_service 
+{
+margin-top:30px;	
+}
+footer .call
+{
+    margin-right:70px;
+    display:flex;
+    flex-direction:center;
+    align-items:center;
+}
+footer
+{
+margin-top: 0px;
+height: 100px;
+background-color: #3b3b3b;
+display: flex;
+-webkit-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+ align-items: center;
+justify-content: center;
+}
+footer a:hover
+{
+text-decoration: none;
+}
+footer a
+{
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 18px;
+font-weight: 400;
+margin-left: 5px;
+}
+.about_us
+{
+	margin-top: 50px;
+}
+#qw
+{
+	background-color: #000062;
+}
+.slide  p
+{
+	font-size: 18px;
+	color:gray;font-family: "Arial Narrow";
+	font-weight:0;
+}
+.carousel
+{
+	margin-top: 80px;
+	
+}
+
+.item
+{
+	display: flex;
+	flex-direction: center;
+	height:220px;
+}
+.carousel-caption
+{
+margin-top:50px;
+}
+.for_otziv
+{
+font-size:18px;
+color:  #999796;
+}
+
+#about-us_name 
+{
+color: #0e0c60;
+font-family: "Suisse Intl";
+font-size: 17px;
+font-weight: 900;
+}
+.full_form
+{
+
+}
+#titile_full_form
+{
+	width: 80px;
+    height: 80px;
+    background: orange;
+    border-radius: 20px;
+     margin-top: 60px;
+     margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+#titile_full_form span
+{
+	color:white;
+	font-size: 40px;
+	font-weight: 900; 
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);	
+}
+.for_titile_full_form
+{
+	display: flex;
+	justify-content: space-around;
+}
+.name_titile_full_form
+{
+	display: flex;
+	justify-content: center;
+	
+}
+.name_titile_full_form li
+{
+	display: inline;
+	font-size: 16px;
+	font-weight: 900;
+	padding-top: 10px;
+	flex-grow: 1;
+}
+
+.full_form_forma
+{
+	margin-top: 20px;
+    
+	display: flex;
+	justify-content: space-around;
+}
+.form_auto,.form_thing,.form_contacts
+{
+	width: 270px;
+}
+.full_form_forma_send
+{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.full_form_forma_send_to
+{
+	
+	width: 160px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item span
+{
+
+font-family: "Suisse Intl";
+font-size: 16px;
+color: #0e0c60;
+}
+.item p
+{
+    font-size:17px;
+    line-height:1;
+}
+.footer_blue_line
+{
+width: 100%;
+margin: 0 auto;
+position: absolute;
+height: 15px;
+background-color: #0e0c60;
+display: flex;
+justify-content:flex-start;
+align-self: flex-start;
+}
+.for_to_up
+{
+	margin-top: -45px;
+	display:flex;
+	justify-content:flex-start;
+	cursor:pointer;
+	margin-left:12%;
+}
+@media screen and (min-width:320px) and (max-width:900px) {
+.contacts
+{
+    display:flex;
+    justify-content:center;
+}
+}
+@media screen and (min-width:480px) and (max-width:800px) {
+.about_us
+{
+	height: 500px;
+	
+}
+.car img
+{
+	margin-top: 40px;
+	margin-left:7px;
+	width:120px;
+}
+.car
+{
+   margin-left:5px;
+   width:150px;
+   height:150px;
+}
+
+.item
+{
+	display: flex;
+	flex-direction: center;
+    height:250px;
+}
+
+main
+{
+	display: block;
+    text-align: center;
+}
+main h1
+{
+	font-size:35px; 
+}
+main p
+{
+	font-size:28px; 
+	line-height: 1;
+}
+.forma1
+{
+	margin-top: 0px;
+}
+
+.us_contacts h1
+{
+	padding-top: 50px;
+}
+.flex_us_contacts
+{
+display: block;
+}
+.flex_us_contacts input, .flex_us_contacts textarea
+{
+width: 300px;
+}
+.information
+{
+	margin-left: -150px;
+	line-height: 1;
+}
+.for_button_and_p
+{
+	display: block;
+}
+.for_button_and_p p
+{
+font-size: 16px;
+width: 450px;
+margin-top: 5px;
+}
+
+}
+@media screen and (min-width:550px) and (max-width:1100px) {
+.work_with_clients2
+{
+	display: block;
+}
+}
+@media screen and (min-width:460px) and (max-width:549px) {
+.item
+{
+	
+height:250px;
+}
+.work_with_clients2
+{
+	display: block;
+	margin-left: -40px;
+}
+.work_with_clients2 p
+{
+	font-size: 15px;
+}
+.call
+{
+    margin-left:90px;
+}
+
+}
+
+@media screen and (min-width:425px) and (max-width:459px) {
+.work_with_clients2
+{
+	display: block;
+	margin-left: -40px;
+}
+.work_with_clients2 p
+{
+	font-size: 14px;
+	
+}
+.work_with_clients1_block1
+{
+margin-left: 20px;	
+}
+}
+
+
+@media screen and (min-width:320px) and (max-width:424px) {
+
+.work_with_clients2
+{
+	display: block;
+	margin-left: -40px;
+}
+.work_with_clients2 p
+{
+	font-size: 14px;
+	width: 100px;
+	margin-left: 30px;
+}
+.work_with_clients1_block1
+{
+   margin-left:5px; 
+}
+.work_with_clients1_block1, .work_with_clients1 button
+{
+width: 150px;
+}
+.main h1
+{
+    font-size:30px;
+}
+}
+
+@media screen and (min-width:801px) and (max-width:940px) {
+
+.work_with_clients2
+{
+	display: block;
+}
+.flex_us_contacts
+{
+display: block;
+}
+.information
+{
+	margin-left: -40px;
+}
+}	
+@media screen and (min-width:320px) and (max-width:479px) {
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{
+   
+}
+.carousel-caption
+{
+    padding-top:40px;
+}
+.car img
+{
+	margin-top: 40px;
+	margin-left:7px;
+	width:120px;
+}
+.car
+{
+   margin-left:5px;
+   width:150px;
+   height:150px;
+}
+
+.item
+{
+	
+height:310px;
+}
+
+main
+{
+	display: block;
+    text-align: center;
+}
+main h1
+{
+	font-size:30px; 
+}
+main p
+{
+	font-size:25px; 
+	line-height: 1;
+}
+.forma1
+{
+	margin-top: 0px;
+}
+.us_contacts h1
+{
+	padding-top: 50px;
+}
+.us_contacts
+{
+	height: 900px;
+}
+.flex_us_contacts input, .flex_us_contacts textarea
+{
+width: 280px;
+}
+.for_button_and_p
+{
+	display: block;
+}
+.for_button_and_p p
+{
+font-size: 14px;
+width: 280px;
+margin-top: 15px;
+}
+.information p
+{
+    line-height:1;
+}
+.information
+{
+	margin-top: 25px;
+}
+.data
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.car img
+{
+    width:100px;
+    margin-left:0px;
+}
+.car
+{
+	width: 130px;
+	margin-top: 15px
+
+}
+.for_titile_full_form
+{
+	margin-left: -40px;
+}
+.full_form_forma
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form_auto
+{
+
+}
+}
+@media screen and (min-width:320px) and (max-width:630px) {
+.services
+{
+
+	flex-direction: column;
+}
+}
+@media screen and (min-width:320px) and (max-width:1100px) {
+
+}
+@media screen and (min-width:320px) and (max-width:360px) {
+.logo
+{
+	margin-top: 0px;
+	width: 250px;
+}
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+
+.call
+{
+    margin-left:90px;
+}
+.social
+{
+    margin-right:100px;
+}
+.logo
+{
+    margin-left:75px;
+}
+.navbar-toggle
+{
+    margin-right:70px;
+}
+}
+@media screen and (min-width:400px) and (max-width:599px) {
+
+
+}
+@media screen and (min-width:320px) and (max-width:399px) {
+
+
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+.navbar 
+{
+display:flex;
+flex-direction:row;
+} .call
+    {
+       
+        margin-right:10px;
+        margin-left:0;
+        margin-right:0;
+       
+    }
+ 
+    .vk
+    {
+    margin-right:10px;
+    
+    }
+    .social
+    {
+        margin-right:0;
+    }
+}
+@media screen and (min-width:320px) and (max-width:385px) {
+.car
+{
+    width:100px;
+    height:90px;
+    margin:0;
+    margin:5px;
+}
+.car img
+{
+    width:90px;
+    margin-top:20px;
+    margin-left:0;
+    
+}
+ 
+}
+@media screen and (min-width:360px) and (max-width:865px) {
+    .call
+    {
+        margin-top:5px;
+        width:320px;
+        margin-right:0;
+    }
+    .vk
+    {
+    	margin-right:40px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+
+      .call
+    {
+        margin-top:10px;
+        width:300px;
+
+        font-size:10px;
+    }
+   .call_phone,.call_mail
+   {
+       font-size:14px;
+   }
+ 
+    .logo
+    {
+        width:100px;
+    }
+    .send_big_thing h1
+    {
+       font-size:30px; 
+    }
+  
+ .footer_blue_line
+ {
+
+ }
+}
+
+
